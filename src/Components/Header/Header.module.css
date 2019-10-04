@@ -1,0 +1,9 @@
+
+.header {
+  grid-area: header;
+  background-color: khaki;
+}
+
+.headerItems{
+  display: inline;
+}

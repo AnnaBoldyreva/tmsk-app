@@ -9,21 +9,8 @@
 }
 
 
-.header {
-  grid-area: header;
-  background-color: khaki;
-}
 
-.headerItem {
-  display: inline;
-}
 
-.nav{
-  grid-area: nav;
-  background-color: thistle;
-}
 
-.content{
-  grid-area: content;
-  background-color: cornsilk;
-}
+
+
