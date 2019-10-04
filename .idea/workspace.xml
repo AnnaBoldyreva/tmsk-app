@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99397869-b3be-4419-a762-cb430d37aa5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Header/Header.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Navbar/Navbar.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile/SuccesDiary/Diary.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile/SuccesDiary/Diary.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile/SuccesDiary/DiaryPost/Post.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Profile/SuccesDiary/DiaryPost/Post.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +25,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Header" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Profile" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -34,12 +34,15 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/Profile/ProfileInfo" />
+      <recent name="$PROJECT_DIR$/src/Components/Profile/Succes Diary/DiaryPost" />
+      <recent name="$PROJECT_DIR$/src/Components/Profile/Succes Diary" />
       <recent name="$PROJECT_DIR$/src/Components/Profile" />
       <recent name="$PROJECT_DIR$/src/Components/Navbar" />
-      <recent name="$PROJECT_DIR$/src/Components/Header" />
-      <recent name="$PROJECT_DIR$/src/Components" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/Profile" />
+      <recent name="$PROJECT_DIR$/src/Components/Profile/Succes Diary" />
       <recent name="$PROJECT_DIR$/src/Components/Header" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -82,7 +85,7 @@
       <option name="presentableId" value="Default" />
       <updated>1570176057541</updated>
       <workItem from="1570176058673" duration="136000" />
-      <workItem from="1570176198201" duration="3220000" />
+      <workItem from="1570176198201" duration="5643000" />
     </task>
     <task id="LOCAL-00001" summary="add grid styles">
       <created>1570179442484</created>
@@ -91,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570179442484</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add three components and module styles for them">
+      <created>1570180566534</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570180566534</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +122,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add grid styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="add grid styles" />
+    <MESSAGE value="add three components and module styles for them" />
+    <option name="LAST_COMMIT_MESSAGE" value="add three components and module styles for them" />
   </component>
 </project>
