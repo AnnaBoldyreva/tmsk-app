@@ -1,26 +1,13 @@
 import React from 'react';
-import styles from '../../Header.module.css'
+import styles from './Recipes.module.css'
 
-const Header = () => {
+const Recipes = () => {
   return (
-      <header className={styles.header}>
-          <div className={styles.headerItem}>
-          <div className={styles.logo}>
-              place for logo
-
-          </div>
-          <div className={styles.headerLinks}>
-          <div>Sport</div>
-          <div>Recipes</div>
-          <div>Meditation</div>
-          </div>
-          </div>
-
-
-
-      </header>
+      <div className={styles.recipes}>
+          Recipes page
+      </div>
 
   );
 };
 
-export default Header;
+export default Recipes;

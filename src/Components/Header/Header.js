@@ -12,7 +12,7 @@ const Header = () => {
               </div>
               <div className={styles.headerLinks}>
                   <div><NavLink to='/sport'>Sport</NavLink></div>
-                  <div>Recipes</div>
+                  <div><NavLink to='/recipes'>Recipes</NavLink></div>
                   <div>Meditation</div>
                   <div>ToDoList</div>
               </div>
