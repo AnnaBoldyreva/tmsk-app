@@ -4,6 +4,7 @@ import Header from "./Components/Header/Header";
 import Navbar from "./Components/Navbar/Navbar";
 import Profile from "./Components/Profile/Profile";
 import {BrowserRouter, Route} from "react-router-dom";
+import Sport from "./Components/Header/Links/Sport/Sport";
 
 
 const App = () => {
@@ -16,6 +17,7 @@ const App = () => {
       <Navbar/>
       <div className='content'>
        <Route path='/profile' component={Profile} />
+       <Route path='/sport' component={Sport}/>
       </div>
 
 

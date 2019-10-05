@@ -1,6 +1,5 @@
 import React from 'react';
-import styles from './Header.module.css'
-import {NavLink} from "react-router-dom";
+import styles from '../../Header.module.css'
 
 const Header = () => {
   return (
@@ -11,7 +10,7 @@ const Header = () => {
 
               </div>
               <div className={styles.headerLinks}>
-                  <div><NavLink to='/sport'>Sport</NavLink></div>
+                  <div>Sport</div>
                   <div>Recipes</div>
                   <div>Meditation</div>
                   <div>ToDoList</div>

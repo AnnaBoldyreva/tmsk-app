@@ -3,8 +3,9 @@
   grid-template-areas:
   'header header header'
   'nav content content';
-  grid-template-rows: 60px 1fr;
+  grid-template-rows: 70px 1fr;
   grid-template-columns: 1fr 10fr;
+  height: 100vh;
   /*grid-gap: 10px;*/
 }
 
