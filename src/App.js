@@ -6,6 +6,7 @@ import Profile from "./Components/Profile/Profile";
 import {BrowserRouter, Route} from "react-router-dom";
 import Sport from "./Components/Header/Links/Sport/Sport";
 import Recipes from "./Components/Header/Links/Recipes/Recipes";
+import Meditation from "./Components/Header/Links/Mediatation/Meditation";
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
        <Route path='/profile' component={Profile} />
        <Route path='/sport' component={Sport}/>
        <Route path='/recipes' component={Recipes}/>
+       <Route path='/meditation' component={Meditation}/>
       </div>
 
 
