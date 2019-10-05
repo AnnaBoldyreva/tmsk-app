@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99397869-b3be-4419-a762-cb430d37aa5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile/ProfileInfo/ProfileInfo.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile/SuccesDiary/Diary.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile/SuccesDiary/Diary.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile/SuccesDiary/DiaryPost/Post.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Profile/SuccesDiary/DiaryPost/Post.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile/Profile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Links/Mediatation/Medetation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Links/Mediatation/Meditation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Header/Links/Mediatation/Medetation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Links/Mediatation/Meditation.module.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,7 +21,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Profile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Header" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -33,18 +29,18 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Components/Profile/ProfileInfo" />
-      <recent name="$PROJECT_DIR$/src/Components/Profile/Succes Diary/DiaryPost" />
-      <recent name="$PROJECT_DIR$/src/Components/Profile/Succes Diary" />
-      <recent name="$PROJECT_DIR$/src/Components/Profile" />
-      <recent name="$PROJECT_DIR$/src/Components/Navbar" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/Header" />
       <recent name="$PROJECT_DIR$/src/Components/Profile" />
       <recent name="$PROJECT_DIR$/src/Components/Profile/Succes Diary" />
-      <recent name="$PROJECT_DIR$/src/Components/Header" />
       <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/Header/Links/ToDoList" />
+      <recent name="$PROJECT_DIR$/src/Components/Header/Links/Mediatation" />
+      <recent name="$PROJECT_DIR$/src/Components/Header/Links/Recipes" />
+      <recent name="$PROJECT_DIR$/src/Components/Header/Links/Sport" />
+      <recent name="$PROJECT_DIR$/src/Components/Header/Links" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -85,7 +81,8 @@
       <option name="presentableId" value="Default" />
       <updated>1570176057541</updated>
       <workItem from="1570176058673" duration="136000" />
-      <workItem from="1570176198201" duration="5643000" />
+      <workItem from="1570176198201" duration="6176000" />
+      <workItem from="1570262291351" duration="6038000" />
     </task>
     <task id="LOCAL-00001" summary="add grid styles">
       <created>1570179442484</created>
@@ -101,7 +98,49 @@
       <option name="project" value="LOCAL" />
       <updated>1570180566534</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add into component Profile - ProfileInfo + Diary + Post">
+      <created>1570183169365</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570183169365</updated>
+    </task>
+    <task id="LOCAL-00004" summary="redirected styles for 'content'">
+      <created>1570262807109</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1570262807109</updated>
+    </task>
+    <task id="LOCAL-00005" summary="installed react-router-dom">
+      <created>1570263152655</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1570263152655</updated>
+    </task>
+    <task id="LOCAL-00006" summary="styles for header + grid">
+      <created>1570266042574</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1570266042574</updated>
+    </task>
+    <task id="LOCAL-00007" summary="create all header links directories + add component Sport">
+      <created>1570267636502</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1570267636502</updated>
+    </task>
+    <task id="LOCAL-00008" summary="add recipes component with path">
+      <created>1570268045063</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1570268045063</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +162,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add grid styles" />
     <MESSAGE value="add three components and module styles for them" />
-    <option name="LAST_COMMIT_MESSAGE" value="add three components and module styles for them" />
+    <MESSAGE value="add into component Profile - ProfileInfo + Diary + Post" />
+    <MESSAGE value="redirected styles for 'content'" />
+    <MESSAGE value="installed react-router-dom" />
+    <MESSAGE value="styles for header + grid" />
+    <MESSAGE value="create all header links directories + add component Sport" />
+    <MESSAGE value="add recipes component with path" />
+    <option name="LAST_COMMIT_MESSAGE" value="add recipes component with path" />
   </component>
 </project>

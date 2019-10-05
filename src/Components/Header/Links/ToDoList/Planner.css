@@ -1,26 +1,3 @@
-
-.header {
-  grid-area: header;
-  background-color: khaki;
-}
-
-
-.headerItem{
-  display: grid;
-  grid-template-areas:
-  'logo  linksFirst links';
-  grid-template-rows: 1fr;
-  grid-template-columns: 10% 40% 60%;
-
-}
-
-.logo{
-  grid-area: logo;
-}
-
-
-
-.headerLinks{
-  grid-area: links;
+.planner {
 
 }

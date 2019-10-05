@@ -1,26 +1,13 @@
 import React from 'react';
-import styles from '../../Header.module.css'
+import styles from './Planner.css'
 
-const Header = () => {
+const Planner = () => {
   return (
-      <header className={styles.header}>
-          <div className={styles.headerItem}>
-              <div className={styles.logo}>
-                  place for logo
-
-              </div>
-              <div className={styles.headerLinks}>
-                  <div>Sport</div>
-                  <div>Recipes</div>
-                  <div>Meditation</div>
-                  <div>ToDoList</div>
-              </div>
-          </div>
-
-
-      </header>
+     <div className={styles.planner}>
+         Planner Page
+     </div>
 
   );
 };
 
-export default Header;
+export default Planner;
