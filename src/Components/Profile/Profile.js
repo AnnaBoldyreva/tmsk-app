@@ -5,10 +5,10 @@ import Diary from "./SuccesDiary/Diary";
 
 const Profile = () => {
   return (
-      <div className={styles.content}>
+      <div className={styles.profile}>
           <ProfileInfo/>
           <Diary/>
-          Content
+
       </div>
 
   );
