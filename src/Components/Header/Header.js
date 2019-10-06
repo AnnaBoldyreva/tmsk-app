@@ -11,10 +11,12 @@ const Header = () => {
 
               </div>
               <div className={styles.headerLinks}>
-                  <div><NavLink to='/sport'>Sport</NavLink></div>
-                  <div><NavLink to='/recipes'>Recipes</NavLink></div>
-                  <div><NavLink to='/meditation'>Meditation</NavLink></div>
-                  <div><NavLink to='/planner'>Planner</NavLink></div>
+
+                  <div className={styles.inlineWrapper}><NavLink to='/sport'>Sport</NavLink></div>
+                  <div className={styles.inlineWrapper}><NavLink to='/recipes'>Recipes</NavLink></div>
+                  <div className={styles.inlineWrapper}><NavLink to='/meditation'>Meditation</NavLink></div>
+                  <div className={styles.inlineWrapper}><NavLink to='/planner'>Planner</NavLink></div>
+
               </div>
           </div>
 

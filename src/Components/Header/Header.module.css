@@ -10,7 +10,7 @@
   grid-template-areas:
   'logo  linksFirst links';
   grid-template-rows: 1fr;
-  grid-template-columns: 10% 40% 60%;
+  grid-template-columns: 5% 10% 80%;
 
 }
 
@@ -22,5 +22,13 @@
 
 .headerLinks{
   grid-area: links;
+  margin-top: 20px
+
+}
+
+.inlineWrapper  {
+  display: inline;
+  margin: 30px;
+  font-size: 20px;
 
 }

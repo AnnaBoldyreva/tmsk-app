@@ -1,10 +1,20 @@
 
 .profileInfo {
-background-color: #6a99b2;
+ display: grid;
+ grid-template-areas: 'img  links linksFirst';
+ grid-template-rows: 1fr;
+ grid-template-columns: 10% 40% 60%;
+ background-color: #6a99b2;
 }
- .img{
+ .img img {
+  grid-area: img;
   width: 100px;
   height: 100px;
-   border: #6a99b2 solid;
+  border: #6a99b2 solid;
 }
+
+ .info{
+  grid-area: links;
+ }
+
 
