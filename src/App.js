@@ -8,6 +8,7 @@ import Sport from "./Components/Header/Links/Sport/Sport";
 import Recipes from "./Components/Header/Links/Recipes/Recipes";
 import Meditation from "./Components/Header/Links/Mediatation/Meditation";
 import Planner from "./Components/Header/Links/ToDoList/Planner";
+import Settings from "./Components/Navbar/Navigation/SettingsPage/Settings";
 
 
 const App = () => {
@@ -18,13 +19,14 @@ const App = () => {
 
       <Header/>
       <Navbar/>
-      <div className='content'>
-       <Route path='/profile'    component={Profile} />
-       <Route path='/sport'      component={Sport}/>
-       <Route path='/recipes'    component={Recipes}/>
-       <Route path='/meditation' component={Meditation}/>
-       <Route path='/planner'    component={Planner}/>
-      </div>
+        <div className='content'>
+            <Route path='/settings' component={Settings}/>
+            <Route path='/profile' component={Profile}/>
+            <Route path='/sport' component={Sport}/>
+            <Route path='/recipes' component={Recipes}/>
+            <Route path='/meditation' component={Meditation}/>
+            <Route path='/planner' component={Planner}/>
+        </div>
 
 
     </div>
