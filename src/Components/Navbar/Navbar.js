@@ -6,6 +6,7 @@ const Navbar = () => {
   return (
       <nav className={styles.nav}>
           <div><NavLink to='/profile'>Profile</NavLink></div>
+          <div><NavLink to='/dialogs'>Dialogs</NavLink></div>
           <div><NavLink to='/analytics'>Analytics</NavLink></div>
           <div><NavLink to='/subscription'>Subscription</NavLink></div>
           <div><NavLink to='/settings'>Settings</NavLink></div>

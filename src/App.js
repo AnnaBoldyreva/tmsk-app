@@ -12,6 +12,7 @@ import Settings from "./Components/Navbar/Navigation/SettingsPage/Settings";
 import Analytics from "./Components/Navbar/Navigation/Analytics/Analytics";
 import Subscription from "./Components/Navbar/Navigation/Subscription/Subscription";
 import Help from "./Components/Navbar/Navigation/HelpPage/Help";
+import Dialogs from "./Components/Navbar/Navigation/Dialogs/Dialogs";
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
       <Header/>
       <Navbar/>
         <div className='content'>
+            <Route path='/dialogs' component={Dialogs}/>
             <Route path='/help' component={Help}/>
             <Route path='/subscription' component={Subscription}/>
             <Route path='/analytics' component={Analytics}/>
