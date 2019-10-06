@@ -9,6 +9,7 @@ import Recipes from "./Components/Header/Links/Recipes/Recipes";
 import Meditation from "./Components/Header/Links/Mediatation/Meditation";
 import Planner from "./Components/Header/Links/ToDoList/Planner";
 import Settings from "./Components/Navbar/Navigation/SettingsPage/Settings";
+import Analytics from "./Components/Navbar/Navigation/Analytics/Analytics";
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
       <Header/>
       <Navbar/>
         <div className='content'>
+            <Route path='/analytics' component={Analytics}/>
             <Route path='/settings' component={Settings}/>
             <Route path='/profile' component={Profile}/>
             <Route path='/sport' component={Sport}/>
