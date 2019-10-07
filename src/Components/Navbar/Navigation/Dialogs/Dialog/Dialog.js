@@ -6,7 +6,10 @@ const Dialog = () => {
   return (
 
           <div className={styles.dialog}>
-              Dialog will be here
+              <div>Andy</div>
+              <div>Erick</div>
+              <div>Blair</div>
+              <div>Serena</div>
 
           </div>
 
