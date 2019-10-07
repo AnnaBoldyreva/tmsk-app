@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './dialogs.module.css'
+import Dialog from "./Dialog/Dialog";
 
 
 const Dialogs = () => {
@@ -7,6 +8,7 @@ const Dialogs = () => {
 
           <div className={styles.dialogs}>
               Dialogs Page
+              <Dialog/>
 
           </div>
 
