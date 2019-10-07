@@ -5,13 +5,13 @@ import styles from './dialog.module.css'
 const Dialog = () => {
   return (
 
-          <div className={styles.dialog}>
-              <div>Andy</div>
-              <div>Erick</div>
-              <div>Blair</div>
-              <div>Serena</div>
+      <div className={styles.dialog}>
+          <div>Andy</div>
+          <div>Erick</div>
+          <div>Blair</div>
+          <div>Serena</div>
 
-          </div>
+      </div>
 
 
 

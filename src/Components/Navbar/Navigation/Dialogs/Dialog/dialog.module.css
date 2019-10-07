@@ -1,4 +1,6 @@
 
 .dialog{
-
+    grid-area: dialog;
+    font-family: "American Typewriter", serif;
+    font-size: 30px;
 }

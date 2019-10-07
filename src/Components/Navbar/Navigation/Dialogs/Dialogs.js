@@ -7,12 +7,16 @@ import Messages from "./DialogMessages/Messages";
 const Dialogs = () => {
   return (
 
-          <div className={styles.dialogs}>
-              Dialogs Page
-              <Dialog/>
-              <Messages/>
+      <div>
+      <div className={styles.dialogs}>
 
-          </div>
+          <div> <Dialog/></div>
+
+          <div><Messages/></div>
+
+
+      </div>
+      </div>
 
 
 

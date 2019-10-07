@@ -7,7 +7,9 @@ const Messages = () => {
   return (
 
           <div className={styles.messages}>
-              Mess is here
+              <div>How are you?</div>
+              <div>Can you help me ?</div>
+              <div>Hey hey</div>
 
 
           </div>

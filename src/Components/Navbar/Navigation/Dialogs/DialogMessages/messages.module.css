@@ -1,4 +1,7 @@
 
-.messages{
-font-size: 30px;
+.messages {
+    grid-area: messages;
+    font-size: 15px;
+    font-family: "American Typewriter", serif;
 }
+

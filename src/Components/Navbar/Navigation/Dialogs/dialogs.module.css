@@ -1,4 +1,12 @@
 
-.dialogs{
-
+.dialogs {
+display: grid;
+    grid-template-areas: 'dialog' 'messages';
+    grid-template-rows: 1fr;
+    grid-template-columns: 20% 80%;
 }
+
+
+
+
+
