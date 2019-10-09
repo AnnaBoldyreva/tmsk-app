@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="99397869-b3be-4419-a762-cb430d37aa5e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Links/Mediatation/Medetation.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Links/Mediatation/Meditation.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Header/Links/Mediatation/Medetation.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Header/Links/Mediatation/Meditation.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navigation/SettingsPage/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navigation/SettingsPage/Settings.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navigation/Subscription/Subscription.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navigation/Subscription/Subscription.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,7 +19,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Header" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Components/Navbar/Navigation/Dialogs" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -30,17 +28,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Components/Navbar/Navigation/Dialogs" />
+      <recent name="$PROJECT_DIR$/src/Components/Navbar/Navigation/Analytics" />
+      <recent name="$PROJECT_DIR$/src/Components/Navbar/Navigation/SettingsPage" />
       <recent name="$PROJECT_DIR$/src/Components/Header" />
       <recent name="$PROJECT_DIR$/src/Components/Profile" />
-      <recent name="$PROJECT_DIR$/src/Components/Profile/Succes Diary" />
-      <recent name="$PROJECT_DIR$/src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Components/Header/Links/ToDoList" />
-      <recent name="$PROJECT_DIR$/src/Components/Header/Links/Mediatation" />
-      <recent name="$PROJECT_DIR$/src/Components/Header/Links/Recipes" />
-      <recent name="$PROJECT_DIR$/src/Components/Header/Links/Sport" />
-      <recent name="$PROJECT_DIR$/src/Components/Header/Links" />
+      <recent name="$PROJECT_DIR$/src/Components/Navbar/Navigation/Dialogs/DialogMessages" />
+      <recent name="$PROJECT_DIR$/src/Components/Navbar/Navigation/Dialogs/Dialog" />
+      <recent name="$PROJECT_DIR$/src/Components/Navbar/Navigation/Dialogs" />
+      <recent name="$PROJECT_DIR$/src/Components/Navbar/Navigation/HelpPage" />
+      <recent name="$PROJECT_DIR$/src/Components/Navbar/Navigation/Subscription" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -82,7 +81,10 @@
       <updated>1570176057541</updated>
       <workItem from="1570176058673" duration="136000" />
       <workItem from="1570176198201" duration="6176000" />
-      <workItem from="1570262291351" duration="6038000" />
+      <workItem from="1570262291351" duration="6303000" />
+      <workItem from="1570373286453" duration="4724000" />
+      <workItem from="1570429038247" duration="3444000" />
+      <workItem from="1570617435236" duration="1457000" />
     </task>
     <task id="LOCAL-00001" summary="add grid styles">
       <created>1570179442484</created>
@@ -140,7 +142,119 @@
       <option name="project" value="LOCAL" />
       <updated>1570268045063</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add meditation component with path">
+      <created>1570268463328</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1570268463328</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add Planner component with path">
+      <created>1570268647232</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1570268647232</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add Settings component with Route &amp; NavLink">
+      <created>1570373852792</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1570373852792</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add Analytics component with Route &amp; NavLink">
+      <created>1570374073749</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1570374073749</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add Subscription component with Route &amp; NavLink">
+      <created>1570374291320</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1570374291320</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add Help component with Route &amp; NavLink">
+      <created>1570374490072</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1570374490072</updated>
+    </task>
+    <task id="LOCAL-00015" summary=".map for Post component">
+      <created>1570375685220</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1570375685220</updated>
+    </task>
+    <task id="LOCAL-00016" summary=".map for ProfileInfo component">
+      <created>1570376326969</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1570376326969</updated>
+    </task>
+    <task id="LOCAL-00017" summary="styled links in header">
+      <created>1570377640615</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1570377640615</updated>
+    </task>
+    <task id="LOCAL-00018" summary="add Dialogs component in navbar">
+      <created>1570377970580</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1570377970580</updated>
+    </task>
+    <task id="LOCAL-00019" summary="add Dialog component in Dialogs">
+      <created>1570429368641</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1570429368641</updated>
+    </task>
+    <task id="LOCAL-00020" summary="add Messages component in Dialogs">
+      <created>1570429811021</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1570429811021</updated>
+    </task>
+    <task id="LOCAL-00021" summary="add  grid styles to Dialogs">
+      <created>1570431828002</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1570431828002</updated>
+    </task>
+    <task id="LOCAL-00022" summary="add map and props to Dialog">
+      <created>1570432535151</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1570432535151</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add NavLink to Dialog">
+      <created>1570617821920</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1570617821920</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add description for Subscription component, after need break down into more components">
+      <created>1570618574778</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1570618574778</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -168,6 +282,22 @@
     <MESSAGE value="styles for header + grid" />
     <MESSAGE value="create all header links directories + add component Sport" />
     <MESSAGE value="add recipes component with path" />
-    <option name="LAST_COMMIT_MESSAGE" value="add recipes component with path" />
+    <MESSAGE value="add meditation component with path" />
+    <MESSAGE value="add Planner component with path" />
+    <MESSAGE value="add Settings component with Route &amp; NavLink" />
+    <MESSAGE value="add Analytics component with Route &amp; NavLink" />
+    <MESSAGE value="add Subscription component with Route &amp; NavLink" />
+    <MESSAGE value="add Help component with Route &amp; NavLink" />
+    <MESSAGE value=".map for Post component" />
+    <MESSAGE value=".map for ProfileInfo component" />
+    <MESSAGE value="styled links in header" />
+    <MESSAGE value="add Dialogs component in navbar" />
+    <MESSAGE value="add Dialog component in Dialogs" />
+    <MESSAGE value="add Messages component in Dialogs" />
+    <MESSAGE value="add  grid styles to Dialogs" />
+    <MESSAGE value="add map and props to Dialog" />
+    <MESSAGE value="add NavLink to Dialog" />
+    <MESSAGE value="add description for Subscription component, after need break down into more components" />
+    <option name="LAST_COMMIT_MESSAGE" value="add description for Subscription component, after need break down into more components" />
   </component>
 </project>

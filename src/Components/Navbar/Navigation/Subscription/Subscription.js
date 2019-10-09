@@ -20,7 +20,7 @@ const Subscription = () => {
                   <li>Цена подписки: пропсы с ценой</li>
               </ul>
               </div>
-              <div></div>
+
 
           </div>
 
