@@ -24,16 +24,16 @@ const App = () => {
       <Header/>
       <Navbar/>
         <div className='content'>
-            <Route path='/dialogs' component={Dialogs}/>
-            <Route path='/help' component={Help}/>
-            <Route path='/subscription' component={Subscription}/>
-            <Route path='/analytics' component={Analytics}/>
-            <Route path='/settings' component={Settings}/>
-            <Route path='/profile' component={Profile}/>
-            <Route path='/sport' component={Sport}/>
-            <Route path='/recipes' component={Recipes}/>
-            <Route path='/meditation' component={Meditation}/>
-            <Route path='/planner' component={Planner}/>
+            <Route path='/dialogs' render={() => <Dialogs/>}/>
+            <Route path='/help' render={() => <Help/>}/>
+            <Route path='/subscription' render={() => <Subscription/>}/>
+            <Route path='/analytics' render={() => <Analytics/>}/>
+            <Route path='/settings' render={() => <Settings/>}/>
+            <Route path='/profile' render={() => <Profile/>}/>
+            <Route path='/sport' render={() => <Sport/>}/>
+            <Route path='/recipes' render={() => <Recipes/>}/>
+            <Route path='/meditation' render={() => <Meditation/>}/>
+            <Route path='/planner' render={() => <Planner/>}/>
         </div>
 
 

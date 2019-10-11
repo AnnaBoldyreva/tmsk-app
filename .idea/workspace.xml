@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="99397869-b3be-4419-a762-cb430d37aa5e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navigation/SettingsPage/Settings.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navigation/SettingsPage/Settings.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Navbar/Navigation/Subscription/Subscription.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Navbar/Navigation/Subscription/Subscription.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +82,8 @@
       <workItem from="1570262291351" duration="6303000" />
       <workItem from="1570373286453" duration="4724000" />
       <workItem from="1570429038247" duration="3444000" />
-      <workItem from="1570617435236" duration="1457000" />
+      <workItem from="1570617435236" duration="1968000" />
+      <workItem from="1570717449599" duration="304000" />
     </task>
     <task id="LOCAL-00001" summary="add grid styles">
       <created>1570179442484</created>
@@ -254,7 +253,28 @@
       <option name="project" value="LOCAL" />
       <updated>1570618574778</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add description for Settings component, after need break down into more components">
+      <created>1570618960770</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1570618960770</updated>
+    </task>
+    <task id="LOCAL-00026" summary="add information in Recipes component">
+      <created>1570717695198</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1570717695198</updated>
+    </task>
+    <task id="LOCAL-00027" summary="add information in Meditation component">
+      <created>1570717759027</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1570717759027</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,8 +294,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add grid styles" />
-    <MESSAGE value="add three components and module styles for them" />
     <MESSAGE value="add into component Profile - ProfileInfo + Diary + Post" />
     <MESSAGE value="redirected styles for 'content'" />
     <MESSAGE value="installed react-router-dom" />
@@ -298,6 +316,9 @@
     <MESSAGE value="add map and props to Dialog" />
     <MESSAGE value="add NavLink to Dialog" />
     <MESSAGE value="add description for Subscription component, after need break down into more components" />
-    <option name="LAST_COMMIT_MESSAGE" value="add description for Subscription component, after need break down into more components" />
+    <MESSAGE value="add description for Settings component, after need break down into more components" />
+    <MESSAGE value="add information in Recipes component" />
+    <MESSAGE value="add information in Meditation component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add information in Meditation component" />
   </component>
 </project>
