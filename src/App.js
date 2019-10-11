@@ -15,7 +15,7 @@ import Help from "./Components/Navbar/Navigation/HelpPage/Help";
 import Dialogs from "./Components/Navbar/Navigation/Dialogs/Dialogs";
 
 
-const App = () => {
+const App = (props) => {
 
   return (
       <BrowserRouter>
@@ -29,7 +29,7 @@ const App = () => {
             <Route path='/subscription' render={() => <Subscription/>}/>
             <Route path='/analytics' render={() => <Analytics/>}/>
             <Route path='/settings' render={() => <Settings/>}/>
-            <Route path='/profile' render={() => <Profile/>}/>
+            <Route path='/profile' render={() => <Profile profileData={props.profileData}/>}/>
             <Route path='/sport' render={() => <Sport/>}/>
             <Route path='/recipes' render={() => <Recipes/>}/>
             <Route path='/meditation' render={() => <Meditation/>}/>

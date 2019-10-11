@@ -3,12 +3,9 @@ import styles from './Profile.module.css'
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
 import Diary from "./SuccesDiary/Diary";
 
-const Profile = () => {
-    let profileData = [
-        {id: 1, name: 'Anna', age: 21 , country: 'Russia'}
-    ];
+const Profile = (props) => {
 
-    let profileElements = profileData.map(info => <ProfileInfo name={info.name} country={info.country} age={info.age}/> );
+    let profileElements = props.profileData.map(info => <ProfileInfo name={info.name} country={info.country} age={info.age}/> );
   return (
       <div className={styles.profile}>
 
