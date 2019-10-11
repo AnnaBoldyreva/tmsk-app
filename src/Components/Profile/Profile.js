@@ -10,7 +10,7 @@ const Profile = (props) => {
       <div className={styles.profile}>
 
           {profileElements}
-          <Diary />
+          <Diary postData={props.postData} />
 
       </div>
 

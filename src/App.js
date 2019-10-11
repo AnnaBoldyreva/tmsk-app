@@ -29,7 +29,7 @@ const App = (props) => {
             <Route path='/subscription' render={() => <Subscription/>}/>
             <Route path='/analytics' render={() => <Analytics/>}/>
             <Route path='/settings' render={() => <Settings/>}/>
-            <Route path='/profile' render={() => <Profile profileData={props.profileData}/>}/>
+            <Route path='/profile' render={() => <Profile profileData={props.profileData} postData={props.postData}/>}/>
             <Route path='/sport' render={() => <Sport/>}/>
             <Route path='/recipes' render={() => <Recipes/>}/>
             <Route path='/meditation' render={() => <Meditation/>}/>
