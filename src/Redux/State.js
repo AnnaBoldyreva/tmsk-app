@@ -1,8 +1,8 @@
 let state= {
     messageData: [
         {id:1, message: 'How are you?'},
-        {id:1, message: 'Can you help me?'},
-        {id:1, message: 'Show me your diet,please'}
+        {id:2, message: 'Can you help me?'},
+        {id:3, message: 'Show me your diet,please'}
     ],
     dialogDate: [
         {id:1, name: 'Nate' },
@@ -30,6 +30,14 @@ export let addPost = (postMessage) => {
     };
     state.postData.push(newPost)
 
+};
+
+export let sendMessage = (Message)=>{
+    let newMessage = {
+        id: 3,
+        message: Message
+    };
+    state.messageData.push(newMessage)
 };
 
 export default state;

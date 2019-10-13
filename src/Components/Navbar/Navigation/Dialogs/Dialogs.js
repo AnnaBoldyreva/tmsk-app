@@ -8,7 +8,7 @@ const Dialogs = (props) => {
 
 
     let dialogItems = props.dialogDate.map(el => <Dialog id={el.id} name={el.name}/>);
-    let messageItem = props.messageData.map(el => <Messages id={el.id} message={el.message} />);
+    let messageItem = props.messageData.map(el => <Messages id={el.id} message={el.message} sendMessage={props.sendMessage} />);
     return (
 
       <div>
@@ -16,7 +16,7 @@ const Dialogs = (props) => {
 
           <div> {dialogItems}</div>
 
-          <div>{messageItem}</div>
+          <div>{messageItem} </div>
 
 
       </div>
