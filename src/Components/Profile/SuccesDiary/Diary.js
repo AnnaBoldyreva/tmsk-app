@@ -6,15 +6,22 @@ const Diary = (props) => {
 
     let postsElement = props.postData.map(post =>  <Post header={post.header} message={post.message} likesCount={post.likesCount}/> );
 
+    let newPostElement = React.createRef();
+
+    let addPost = () => {
+        let newText = newPostElement.current.value;
+        alert(newText)
+    };
+
   return (
       <div className={styles.diary}>
           Here you can write your own success
           <div>
-              <textarea placeholder="type something" id="post" cols="90" rows="10">
+              <textarea ref={newPostElement} placeholder="type something" id="post" cols="90" rows="10">
 
               </textarea>
           </div>
-          <button type='submit'>Press here</button>
+          <button onClick={addPost} type='submit'>Press here</button>
           {postsElement}
 
 
