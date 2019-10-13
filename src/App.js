@@ -24,7 +24,7 @@ const App = (props) => {
       <Header/>
       <Navbar/>
         <div className='content'>
-            <Route path='/dialogs' render={() => <Dialogs/>}/>
+            <Route path='/dialogs' render={() => <Dialogs messageData={props.messageData} dialogDate={props.dialogDate}/>}/>
             <Route path='/help' render={() => <Help/>}/>
             <Route path='/subscription' render={() => <Subscription/>}/>
             <Route path='/analytics' render={() => <Analytics/>}/>
