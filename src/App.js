@@ -24,12 +24,12 @@ const App = (props) => {
       <Header/>
       <Navbar/>
         <div className='content'>
-            <Route path='/dialogs' render={() => <Dialogs messageData={props.messageData} dialogDate={props.dialogDate}/>}/>
+            <Route path='/dialogs' render={() => <Dialogs messageData={props.state.messageData} dialogDate={props.state.dialogDate}/>}/>
             <Route path='/help' render={() => <Help/>}/>
             <Route path='/subscription' render={() => <Subscription/>}/>
             <Route path='/analytics' render={() => <Analytics/>}/>
             <Route path='/settings' render={() => <Settings/>}/>
-            <Route path='/profile' render={() => <Profile profileData={props.profileData} postData={props.postData}/>}/>
+            <Route path='/profile' render={() => <Profile profileData={props.state.profileData} postData={props.state.postData}/>}/>
             <Route path='/sport' render={() => <Sport/>}/>
             <Route path='/recipes' render={() => <Recipes/>}/>
             <Route path='/meditation' render={() => <Meditation/>}/>
