@@ -21,4 +21,15 @@ let state= {
     ]
 };
 
+export let addPost = (postMessage) => {
+    let newPost = {
+        id: 4,
+        header:'Yech',
+        message: postMessage,
+        likesCount: 0
+    };
+    state.postData.push(newPost)
+
+};
+
 export default state;

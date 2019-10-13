@@ -13,6 +13,7 @@ import Analytics from "./Components/Navbar/Navigation/Analytics/Analytics";
 import Subscription from "./Components/Navbar/Navigation/Subscription/Subscription";
 import Help from "./Components/Navbar/Navigation/HelpPage/Help";
 import Dialogs from "./Components/Navbar/Navigation/Dialogs/Dialogs";
+import {addPost} from "./Redux/State";
 
 
 const App = (props) => {
@@ -29,7 +30,7 @@ const App = (props) => {
             <Route path='/subscription' render={() => <Subscription/>}/>
             <Route path='/analytics' render={() => <Analytics/>}/>
             <Route path='/settings' render={() => <Settings/>}/>
-            <Route path='/profile' render={() => <Profile profileData={props.state.profileData} postData={props.state.postData}/>}/>
+            <Route path='/profile' render={() => <Profile profileData={props.state.profileData} postData={props.state.postData} addPost={addPost}/>}/>
             <Route path='/sport' render={() => <Sport/>}/>
             <Route path='/recipes' render={() => <Recipes/>}/>
             <Route path='/meditation' render={() => <Meditation/>}/>

@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Profile.module.css'
 import ProfileInfo from "./ProfileInfo/ProfileInfo";
 import Diary from "./SuccesDiary/Diary";
+import {addPost} from "../../Redux/State";
 
 const Profile = (props) => {
 
@@ -10,7 +11,7 @@ const Profile = (props) => {
       <div className={styles.profile}>
 
           {profileElements}
-          <Diary postData={props.postData} />
+          <Diary postData={props.postData} addPost={addPost} />
 
       </div>
 

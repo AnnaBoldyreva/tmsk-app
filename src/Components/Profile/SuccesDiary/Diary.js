@@ -10,7 +10,7 @@ const Diary = (props) => {
 
     let addPost = () => {
         let newText = newPostElement.current.value;
-        alert(newText)
+        props.addPost(newText)
     };
 
   return (
