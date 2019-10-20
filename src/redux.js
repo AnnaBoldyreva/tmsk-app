@@ -7,7 +7,7 @@ import {addPost} from "./Redux/State";
 import {sendMessage} from "./Redux/State";
 
 
-let rerender = (state) => {
+export let rerender = (state) => {
     ReactDOM.render(<App state={state} addPost={addPost} sendMessage={sendMessage}/>, document.getElementById('root'));
 };
 // If you want your app to work offline and load faster, you can change
