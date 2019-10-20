@@ -30,7 +30,7 @@ export let addPost = (postMessage) => {
         message: postMessage,
         likesCount: 0
     };
-    state.postData.push(newPost)
+    state.postData.push(newPost);
     rerender(state);
 
 };
