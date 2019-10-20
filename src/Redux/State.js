@@ -1,3 +1,5 @@
+import {rerender} from "../redux";
+
 let state= {
     messageData: [
         {id:1, message: 'How are you?'},
@@ -29,6 +31,7 @@ export let addPost = (postMessage) => {
         likesCount: 0
     };
     state.postData.push(newPost)
+    rerender(state);
 
 };
 
