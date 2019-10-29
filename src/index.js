@@ -10,7 +10,7 @@ import {BrowserRouter} from "react-router-dom";
 
 
 
- let rerender = (state) => {
+ let rerender = () => {
     ReactDOM.render(
         <BrowserRouter>
         <App state={store.getState()}
